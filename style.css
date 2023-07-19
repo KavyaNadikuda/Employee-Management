@@ -1,0 +1,79 @@
+
+*{
+  background-color: black;
+  color: white;
+ 
+}
+body{
+  margin:60px 30px;
+}
+.inputDetails{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.inputDetails div{
+  display:flex;
+  flex-direction: column;
+  gap:10px;
+}
+.inputDetails>div>input{
+   
+  padding: 6px;
+  border-radius: 5px;
+  border: 1px solid white;
+  background-color: black;
+  margin-top: 10px;
+  color: white;
+  width:25rem
+}
+.inputDetails>div>input:focus{
+  outline: none;
+  background-color: black;
+}
+.userbtn{
+  background-color: white;
+  color:black;
+  padding:10px;
+  margin-top: 30px;
+  width:6rem;
+  border-radius: 15px;
+}
+.viewContainer p{
+  color:gray
+}
+.viewFlex{
+  display: flex;
+  gap:30px;
+  justify-items: center;
+}
+.viewFlex>.info{
+  display: flex;
+  gap: 10px;
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 10px;
+  justify-self: center;
+}
+.viewContainer{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  color: white;
+}
+
+.deleteButton{
+  color: black;
+  background-color: white;
+  padding: 10px 25px 10px 25px;
+  border-radius: 20px;
+}
+
+
+.ErrorMessage{
+  color: red;
+}
+
+.SuccessMessage{
+  color: green;
+}
